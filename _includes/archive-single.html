@@ -12,6 +12,15 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign external_url = post.link | default: post.paperurl | default: post.paper_url %}
+{% assign external_is_pdf = false %}
+{% if external_url %}
+  {% assign _lower_url = external_url | downcase %}
+  {% if _lower_url contains '.pdf' or _lower_url contains '/files/' %}
+    {% assign external_is_pdf = true %}
+  {% endif %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -27,10 +36,11 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% if external_url and external_is_pdf == false %}
+        <a href="{{ external_url }}">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {{ title }}
       {% endif %}
     </h2>
     
