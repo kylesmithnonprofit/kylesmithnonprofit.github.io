@@ -331,7 +331,7 @@
   <div class="sidebar sticky"><div id="main" role="main">    
 
 </div>  </div>    </div>      </nav>        <ul class="hidden-links hidden"></ul>        </ul>          </li>            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>          <li id="theme-toggle" class="masthead__menu-item persist tail">            </li>              <a href="https://kylesmithnonprofit.github.io/cv-json/">CV</a>            
-            <li class="masthead__menu-item ">                      </li>              <a href="https://kylesmithnonprofit.github.io/year-archive/">Blog Posts</a>            
+            <li class="masthead__menu-item ">                      </li>              <a href="https://kylesmithnonprofit.github.io/year-archive/">Notes</a>            
             <li class="masthead__menu-item ">                      </li>              <a href="https://kylesmithnonprofit.github.io/teaching/">Teaching</a>            
             <li class="masthead__menu-item ">                      </li>              <a href="https://kylesmithnonprofit.github.io/other-research/">Other Research</a>            
             <li class="masthead__menu-item ">                      </li>              <a href="https://kylesmithnonprofit.github.io/publications/">Publications</a>            
