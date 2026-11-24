@@ -7,6 +7,6 @@ excerpt: 'This chapter provides a high-level overview of the usage of behavioral
 date: 2023-08-11
 venue: 'Research Handbook on Nonprofit Accounting (Edward Elgar Publishing)'
 paperurl: 'https://www.elgaronline.com/edcollchap/book/9781800888289/book-part-9781800888289-29.xml'
-citation: 'Buchheit, S., Parsons, L. M., & Smith, K. A. (2023). Examining nonprofit accounting using behavioral research methods. In Research Handbook on Nonprofit Accounting (pp. 360-380). Edward Elgar Publishing.'
+citation: 'Buchheit, S., Parsons, L. M., & Smith, K. A. (2023). Examining nonprofit accounting using behavioral research methods. In <i>Research Handbook on Nonprofit Accounting</i> (pp. 360-380). Edward Elgar Publishing.'
 ---
 

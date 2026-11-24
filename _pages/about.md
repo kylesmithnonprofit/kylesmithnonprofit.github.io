@@ -1,8 +1,10 @@
 ---
-permalink: /welcome/
+permalink: /
 title: "Welcome!"
+seo_title: "Kyle A. Smith - Assistant Professor of Accounting, Mississippi State University"
 author_profile: true
 redirect_from: 
+  - /welcome/
   - /about/
   - /about.html
 ---
@@ -13,4 +15,4 @@ My research agenda focuses on accounting questions within the nonprofit setting,
 
 At MSU, I teach Accounting Analytics (undergraduate) and Advanced Accounting Analytics (graduate). Both courses I designed from the ground up and cover material I am very passionate about. Accounting Analytics was originally designed to be an Excel skills course, and I cover core Excel skills, Power Query, Power BI, and Large Language Models. Advanced Accounting Analytics is functionally an introduction to data science, and I cover data management and machine learning techniques in R, with a heavy emphasis on using LLM to accelerate student coding abilities. Over the last two years, I have been incorporating AI into research and course content. I am a huge believer in the disruptive potential of AI, and I have made it a point to incorporate it into my research (I have a working paper that uses LLM as a classifier), and teaching. 
 
-See above tabs for information on my Research, Teaching, and other notes. Feel free to reach out by email for anything!
+See above tabs for information on my Research, Teaching, and CV. Feel free to reach out by email for anything!

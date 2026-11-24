@@ -16,8 +16,8 @@ main:
   - title: "Teaching"
     url: /teaching/    
         
-  - title: "Notes"
-    url: /year-archive/
+ # - title: "Notes"   # hidden until there are notes to show
+ #   url: /year-archive/
     
  # - title: "CV"
  #   url: /cv/
