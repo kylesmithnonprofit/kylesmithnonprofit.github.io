@@ -92,6 +92,7 @@ publication_category:
     title: 'Conference Papers'
 
 teaser                   :  # Keep your existing teaser variable here if you have one
+words_per_minute         : 200 # used for the "X minute read" estimate on Notes
 
 
 # SEO Related
