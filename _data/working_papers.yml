@@ -1,0 +1,110 @@
+# Working papers shown on the Working Papers tab, in the order listed here.
+# Keep this in step with the "Working Papers" section of the CV.
+#   status:    current stage (wrap journal names in *asterisks* to italicize them)
+#   presented: where it has been presented; a * marks a co-author presentation
+#   ssrn:      link to the paper on SSRN (leave blank if there isn't one)
+#   abstract:  shown in a click-to-open "Abstract" box (leave blank if none)
+
+- title: "Tax Avoidance by Nonprofit Organizations: Evidence from Reactions to Section 4960"
+  coauthors: "Erica Harris and Wim Maas"
+  status: "Revising for 2nd round at *Journal of the American Taxation Association*"
+  presented:
+  ssrn:
+  abstract: >-
+    Do nonprofit organizations engage in tax planning? We investigate nonprofit tax avoidance practices
+    by leveraging the introduction of IRC Section 4960, an excise tax on remuneration over one million
+    dollars introduced in the Tax Cuts and Jobs Act. We posit that nonprofits use tax-avoiding strategies
+    to preserve mission funds while retaining executive talent. Using a difference-in-difference design,
+    we find that in affected nonprofits, compensation growth slows, and the use of non-taxed arrangements
+    increases. Specifically, affected organizations are more likely to provide perks and delegate
+    management services. As these alternative arrangements are more covert, the unintended consequences
+    of taxing compensation may include reduced transparency and comparability in nonprofit executive pay.
+
+- title: "Private Foundation Investment Management Expenses and Charitable Distribution Rates"
+  coauthors: "Paul Wong"
+  status: "Preparing for submission to *Contemporary Accounting Research*"
+  presented: "2026 AAA Government and Nonprofit (GNP) Midyear Meeting, 2026 University of Alabama Alumni Conference, Florida International University*, University of Kentucky*, Marquette University"
+  ssrn:
+  abstract: >-
+    Non-operating, private foundations are tax-exempt entities that distribute grants for charitable
+    purposes. While subject to a minimum distribution requirement, foundations have discretion on grant
+    amounts, timing, and recipients. We investigate the association between investment management costs
+    and charitable distributions. Because investment management compensation is a function of assets
+    under management and performance, compensation incentives may lead foundations with investment
+    managers to retain assets rather than distribute them. We find foundation charitable distributions
+    are negatively associated with investment manager use. This association is more negative among
+    foundations with officer-level investment manager employees. Our results are robust to additional
+    analyses designed to isolate the investment manager effect on distribution ratios and control for
+    unobservable foundation preferences for endowment growth and indefinite operations. Our findings
+    contribute to the literature on private foundations and inform regulators and stakeholders
+    evaluating the societal benefit of foundations.
+
+- title: "The Role of Grantmakers and Accounting Information in the Private Foundation Grantmaking Process"
+  coauthors: "Leah Diehl and Linda M. Parsons"
+  status: "Preparing for submission to *Accounting, Organizations, and Society*"
+  presented: "2025 American Accounting Association Annual Conference, 2025 Hawaii Accounting Research Conference, 2024 AAA Government and Nonprofit (GNP) Midyear Meeting, 2022 Association for Research on Nonprofit Organizations and Voluntary Action (ARNOVA) Annual Meeting, 2022 University of Alabama Alumni Conference, University of Richmond"
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5360440"
+  abstract: >-
+    U.S. private foundations distribute over $100 billion annually, but their grantmaking process has been
+    described as a “black box” (Diaz 1999; Jung 2016). We interview grantmakers from 20 large private
+    foundations to understand how they use accounting and other information in their evaluation of
+    nonprofits’ grant applications and usage. Using a utility function of nonprofit workers’ behavior,
+    we uncover the tension grantmakers feel between best serving the interests of their foundation’s
+    board and their nonprofit grantees. We find that grantmakers often use nonprofits’ readily available
+    accounting information in sophisticated ways for their grant decision-making, rather than requiring
+    burdensome reports, such as audits, as a condition for grant funding. Our findings have implications
+    for nonprofits seeking funding and foundations wishing to develop best practices for grantmaking.
+    Further, our finding that foundation grantmakers use different information in their decision-making
+    than individual donors has implications for nonprofit researchers, managers, and regulators.
+
+- title: "Nonprofit CEO Compensation and Gender: Extending the Implied Communality Deficit"
+  coauthors: "Davidson B. Gillette, Scott C. Jackson, and Linda M. Parsons"
+  status: "Under review at *Behavioral Research in Accounting*"
+  presented: "2024 Accounting Behavior and Organizations Conference* and University of Nevada at Las Vegas*"
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5106847"
+  abstract: >-
+    This study experimentally examines how executive gender and relative compensation in the nonprofit
+    sector jointly influence donor perceptions and behavior. Prior research has examined how female
+    leaders may be subject to negative evaluations based on an implied communality deficit. This reflects
+    the stereotypical assumption that achieving success in competitive and male-dominated environments
+    must be a result of the female leader being deficient in communality, or other “feminine” traits.
+    In contrast, we find that results around the implied communality deficit reverse in a nonprofit
+    setting, with highly compensated male leaders being perceived as insufficiently communal and subject
+    to negative evaluations. This result has implications for theory and practice regarding gender
+    expectations and leadership and suggests that situation context matters. Where communality may be
+    expected (e.g., nonprofits), even male CEOs are held to such expectations and subject to the negative
+    evaluations caused by a perceived deficit in communality.
+
+- title: "Classifying Nonprofit Programs Using Large Language Models"
+  coauthors: "Jesse Lecy"
+  status: "Under review at *Nonprofit & Voluntary Sector Quarterly*"
+  presented: "AAA GNP Virtual Workshop (April 2026), 2025 Association for Research on Nonprofit Organizations and Voluntary Action (ARNOVA) Conference*, Mississippi State University"
+  ssrn:
+  abstract: >-
+    Nonprofits describe their programs in their own words on Form 990 Part III, yet these disclosures are
+    rarely used because there has never been a feasible way to classify them. We develop and validate a
+    large language model classifier that applies a modified version of the Nonprofit Program
+    Classification system (Lampkin et al., 2001) to these descriptions. Against human-coded benchmarks,
+    the classifier’s top five codes include the human code for 86% to 91% of programs. Classifying all
+    371,314 program descriptions filed electronically for fiscal year 2021 cost $48. Program codes
+    complement the National Taxonomy of Exempt Entities (NTEE), which assigns one code per organization:
+    only 53% of programs fall within their organization’s NTEE major group. We demonstrate how program
+    codes reduce search costs for researchers and donors seeking organizations that run specific programs.
+
+- title: "Differences in the Giving Decision-Making of Sophisticated and Novice Donors"
+  coauthors: "Linda Parsons"
+  status: "Under review at *Journal of Governmental and Nonprofit Accounting*"
+  presented: "2022 AAA Government and Nonprofit (GNP) Midyear Meeting, 2021 Doctoral Fellowship Seminar at Association for Research on Nonprofit Organizations and Voluntary Action (ARNOVA) Conference, Mississippi State University"
+  ssrn:
+  abstract: >-
+    Nonprofit accounting researchers have linked aspects of nonprofit performance and governance to
+    future contributions. For example, prior studies show that average donors rely too heavily on narrow
+    measures of efficiency. This literature has been unable to directly differentiate between donations
+    from sophisticated and novice donors, limiting our understanding of how donor sophistication
+    moderates donor reliance on accounting information. We exploit a dataset of private foundation grants
+    to explicitly test differences in the performance and governance measures used by institutional and
+    individual donors in their giving decisions. We find that all donors give more to efficient,
+    well-governed nonprofits, individuals respond more strongly to efficiency, and private foundations
+    respond more strongly to governance. Foundations also respond more strongly than individuals to
+    financial vulnerability, and among grant recipients, foundations weight efficiency about half as much
+    as individuals. Overall, our findings suggest donor sophistication plays a significant role in giving.

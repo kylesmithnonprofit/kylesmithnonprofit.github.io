@@ -1,0 +1,37 @@
+---
+layout: archive
+title: "Working Papers"
+permalink: /working-papers/
+description: "Working papers by Kyle A. Smith on nonprofit accounting, private foundations, executive compensation, and donor giving decisions."
+author_profile: true
+---
+
+{% include base_path %}
+{% comment %} The papers themselves are listed in _data/working_papers.yml {% endcomment %}
+
+<p>
+  {% if site.author.ssrn %}You can also find drafts on <a href="{{ site.author.ssrn }}">my SSRN page</a>. {% endif %}
+  <small>* Presented by a co-author.</small>
+</p>
+
+{% for paper in site.data.working_papers %}
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if paper.ssrn %}<a href="{{ paper.ssrn }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+    </h2>
+    <p class="paper-details">
+      {% if paper.coauthors %}with {{ paper.coauthors }}<br />{% endif %}
+      {% if paper.status %}{{ paper.status | markdownify | remove: '<p>' | remove: '</p>' | strip }}<br />{% endif %}
+      {% if paper.presented %}Presented at {{ paper.presented }}<br />{% endif %}
+      {% if paper.ssrn %}<a href="{{ paper.ssrn }}">Download Paper (SSRN)</a>{% endif %}
+    </p>
+    {% if paper.abstract %}
+    <details class="paper-abstract">
+      <summary>Abstract</summary>
+      <div itemprop="abstract">{{ paper.abstract | markdownify }}</div>
+    </details>
+    {% endif %}
+  </article>
+</div>
+{% endfor %}

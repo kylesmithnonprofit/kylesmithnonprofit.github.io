@@ -42,6 +42,27 @@
     "vendor/font-awesome/brands"
 ;
 
+/* Working Papers: coauthors / status / presentations lines under each title */
+.paper-details {
+  font-size: 0.85em;
+}
+
+/* Working Papers: click-to-open abstract under each paper */
+.paper-abstract {
+  margin: -0.5em 0 1em;
+
+  summary {
+    cursor: pointer;
+    font-size: 0.85em;
+    font-weight: bold;
+  }
+
+  div {
+    margin-top: 0.5em;
+    font-size: 0.85em;
+  }
+}
+
 /* Notes: image grid (2 per row, uniform tiles; click a tile for the full image) */
 .note-gallery {
   display: grid;

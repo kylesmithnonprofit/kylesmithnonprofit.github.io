@@ -12,6 +12,8 @@ main:
     url: /publications/
   - title: "Other Research"
     url: /other-research/
+  - title: "Working Papers"
+    url: /working-papers/
  
   - title: "Teaching"
     url: /teaching/    
