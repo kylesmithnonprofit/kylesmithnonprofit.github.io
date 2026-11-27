@@ -39,6 +39,9 @@
       {% if external_url and external_is_pdf == false %}
         <a href="{{ external_url }}">{{ title }}</a>
         <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% elsif post.collection == 'posts' %}
+        {% comment %} Notes have no outside link, so the title opens the note itself. {% endcomment %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% else %}
         {{ title }}
       {% endif %}
